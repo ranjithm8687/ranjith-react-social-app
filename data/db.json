@@ -1,0 +1,34 @@
+{
+  "posts": [
+    {
+      "id": 1,
+      "title": "My First Post",
+      "datetime": "Jul 12, 2023 6:13:53 AM",
+      "body": "Made a video About Tesla Q1 results"
+    },
+    {
+      "id": 2,
+      "title": "My 2 Post",
+      "datetime": "Jul 12, 2023 6:13:48 AM",
+      "body": "I Attended a DEFI Blockchain Event"
+    },
+    {
+      "id": 3,
+      "title": "My 3 Post",
+      "datetime": "Jul 12, 2023 6:13:31 AM",
+      "body": "W3 Global Summit Next week"
+    },
+    {
+      "id": 4,
+      "title": "My 4 Post er",
+      "datetime": "Jul 12, 2023 6:13:38 AM",
+      "body": "ETC Ranjith RTC SRS"
+    },
+    {
+      "id": 5,
+      "title": "ranjith-react fulle",
+      "datetime": "Jul 12, 2023 7:07:33 AM",
+      "body": "full "
+    }
+  ]
+}
