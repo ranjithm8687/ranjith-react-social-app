@@ -1,4 +1,4 @@
-import { Route, Routes, useNavigate } from "react-router-dom";
+import { Route, Routes } from "react-router-dom";
 import About from "./About";
 import Footer from "./Footer";
 import Header from "./Header";
@@ -17,17 +17,17 @@ function App() {
         <Header title="Ranjith Social Media" />
         <Nav />
         <Routes>
-          <Route path="/" element={<Home />} />
+          <Route path="/" element={<Home />} />{" "}
           <Route path="post">
-            <Route index element={<PostNew />} />
-            <Route path=":id" element={<PostPage />} />
-          </Route>
-          <Route path="/edit/:id" element={<EditPost />} />
-          <Route path="about" element={<About />} />
-          <Route path="*" element={<Missing />} />
-        </Routes>
+            <Route index element={<PostNew />} />{" "}
+            <Route path=":id" element={<PostPage />} />{" "}
+          </Route>{" "}
+          <Route path="/edit/:id" element={<EditPost />} />{" "}
+          <Route path="about" element={<About />} />{" "}
+          <Route path="*" element={<Missing />} />{" "}
+        </Routes>{" "}
         <Footer />
-      </DataProvider>
+      </DataProvider>{" "}
     </div>
   );
 }
